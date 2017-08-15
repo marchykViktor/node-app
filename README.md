@@ -1,5 +1,10 @@
 # NodeApp
 
+Для запуска проекта надо установить пакеты - `npm i`, запустить сервер - `npm start` и запустить клиент - `ng serve`
+Для работы нужна БД, настроить ее можно в файле по адресу `\src\app\server\config\db.js`
+
+# info
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
 
 ## Development server
