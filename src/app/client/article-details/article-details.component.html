@@ -1,0 +1,7 @@
+<div class="card text-center article">
+  <div class="card-block">
+    <h3 class="card-title">{{ article?.title }}</h3>
+    <p class="card-text" [innerHTML]="article?.body"></p>
+    <button class="btn btn-info" [routerLink]="['/create', { id: article?._id }]">Редактировать</button>
+  </div>
+</div>

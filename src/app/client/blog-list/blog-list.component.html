@@ -1,0 +1,9 @@
+<ul class="list-group">
+  <li class="list-group-item justify-content-between blog_list-item" *ngFor="let article of articles">
+    <span [routerLink]="['/blog', article._id]" class="blog_list-title">{{ article.title }}</span>
+    <span class="badge badge-default badge-pill">{{ article.cdate | date }}</span>
+  </li>
+</ul>
+<div class="text-center blog_list-btn">
+  <button class="btn btn-info" routerLink="/create">Добавить публикацию</button>
+</div>

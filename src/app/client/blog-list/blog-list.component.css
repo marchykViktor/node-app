@@ -1,0 +1,11 @@
+.badge {
+  background: #6A6A6A;
+  float: right;
+}
+.blog_list-btn {
+  margin-top: 40px;
+}
+.blog_list-title {
+  cursor: pointer;
+  text-decoration: underline;
+}
