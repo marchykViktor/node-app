@@ -1,4 +1,4 @@
-const noteRoutes = require('./article_routes');
+const articleRoutes = require('./article_routes');
 module.exports = function(app, db) {
-  noteRoutes(app, db);
+  articleRoutes(app, db);
 };
